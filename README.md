@@ -6,7 +6,7 @@
 
 This is a re-write on my [Python script](https://github.com/charkster/INA260) which runs on full-size Raspberry Pi. It is cheaper and boots much faster.
 
-I open this script in [Thonny](https://thonny.org/) and have it run in the REPL. Current and voltage are sampled once per second, and displayed in REPL. A CSV logfile is also created on the MCU, which can be accessed using Thonny. 
+I open this script in [Thonny](https://thonny.org/) and have it run in the REPL. Current and voltage are sampled once per second and displayed in REPL. A CSV logfile is also created on the MCU, which can be accessed using Thonny. 
 A QT PY RP2040 was used as it has a 2Mbyte flash to store the CSV logfile.
 
 **Use Ctrl-C to stop the script**, which causes the logfile to be closed.
